@@ -16,6 +16,7 @@ I'm a self-taught junior frontend developer, currently based in Kazakhstan. My g
 * Git/GitHub
 * SASS
 * AdobePhotoshop
+* Adobe Illustrator
 * React Basics
 * VScode
 *******
