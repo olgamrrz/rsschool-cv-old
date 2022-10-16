@@ -5,10 +5,10 @@
 * Phone: +79103956842
 * E-mail: olgamor97@gmail.com
 * Telegram: @olgmmm
-********
+*********
 ### Summary
 I'm a self-taught junior frontend developer, currently based in Kazakhstan. My goal is to become a proficient frontend developer. I have worked on several web development projects.
-********
+*********
 ### Skills
 * HTML5, CSS3
 * JavaScript
@@ -19,7 +19,7 @@ I'm a self-taught junior frontend developer, currently based in Kazakhstan. My g
 * Adobe Illustrator
 * React Basics
 * VScode
-*******
+********
 ### Code examples
 ```
 var swiper = new Swiper(".mySwiper", {
