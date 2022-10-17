@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Olga Morozova</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Source+Serif+Pro&display=swap"
+      rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <div class="header__menu">
+          <ul class="header__list">
+            <li class="header__item"><a href="#contacts" aria-label="contacts">Contacts</a></li>
+            <li class="header__item"><a href="#about-me" aria-label="about-me">About me</a></li>
+            <li class="header__item"><a href="#skills" aria-label="skills">Skills</a></li>
+            <li class="header__item"><a href="#code" aria-label="code">Code</a></li>
+            <li class="header__item"><a href="#projects" aria-label="projects">Projects</a></li>
+            <li class="header__item"><a href="#education" aria-label="contacts">Education</a></li>
+            <li class="header__item"><a href="#language" aria-label="language">Language</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="info__container">
+        <div class="info__cover">
+          <img
+            src="pics/photosmallest.jpg"
+            class="info__img"
+            alt="photo avatar"
+          >
+        </div>
+        <div class="info__text">
+          <h1 class="info__name">Olga Morozova</h1>
+          <p class="info__occupation">Frontend Developer</p>
+          <p class="info__contacts" id="contacts">Contacts</p>
+          <div class="contacts-container">
+            <a href="https://t.me/olgmmm"
+              ><img
+                src="vectors/telegram.svg"
+                class="contacts__icon"
+                alt="telegram icon"
+            ></a>
+            <a href="mailto:olgamor97@gmail.com"
+              ><img
+                src="vectors/mail.svg"
+                width="45"
+                class="contacts__icon"
+                alt="mail icon"
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="summary" id="about-me">
+        <h2 class="summary__heading">About me</h2>
+        <p class="summary__text">
+          I am a self-taught junior frontend developer, currently based in
+          Kazakhstan. My goal is to become a proficient frontend developer. I'm
+          interested in data visualization, UI effects and animations.
+        </p>
+      </div>
+      <div class="skills" id="skills">
+        <h2 class="skills__heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">HTML</li>
+          <li class="skills__item">CSS</li>
+          <li class="skills__item">JavaScript</li>
+          <li class="skills__item">Git&GitHub</li>
+          <li class="skills__item">BEM</li>
+          <li class="skills__item">Responsive Layout</li>
+          <li class="skills__item">React(Basics)</li>
+          <li class="skills__item">SCSS</li>
+          <li class="skills__item">OOP</li>
+        </ul>
+      </div>
+      <div class="code" id="code">
+        <h2 class="code__heading">Code</h2>
+        <pre>
+<code class="code__code">
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: document.querySelector(".shoes-gallery__right"),
+        prevEl: document.querySelector(".shoes-gallery__left")
+      },
+      slidesPerView: 4,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination-hidden",
+        clickable: false
+      }
+    });
+}
+</code>
+</pre>
+      </div>
+      <div class="project" id="projects">
+        <h2 class="project__heading">Projects</h2>
+        <a class="project__cv" href="https://olgamrrz.github.io/rsschool-cv/cv"
+          >RS Project</a
+        >
+      </div>
+      <div class="education" id="education">
+        <h2 class="education__heading">Education</h2>
+        <ul class="education__list">
+          <li class="education__item">
+            FreeCodeCamp course: Legacy Responsive Web Design
+          </li>
+          <li class="education__item">
+            FreeCodeCamp course: JavaScript Algorithms and Data Structures
+          </li>
+          <li class="education__item">HTML Academy free courses</li>
+        </ul>
+      </div>
+      <div class="language" id="language">
+        <h2 class="language__heading">Language</h2>
+        <ul class="language__list">
+          <li class="language__item">Russian - Native</li>
+          <li class="language__item">English - Advanced</li>
+          <li class="language__item">German - Advanced</li>
+        </ul>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <a href="https://rs.school/js-en/"
+          ><img
+            src="vectors/logo-rsschool3.png"
+            class="footer__logo-rsschool"
+            width="80"
+            height="40"
+            alt="rs school logo"
+        ></a>
+        <p class="footer__time">October 2022</p>
+        <a href="https://github.com/olgamrrz"
+          ><img src="vectors/GitHub-Mark-32px.png" alt="github logo"
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
