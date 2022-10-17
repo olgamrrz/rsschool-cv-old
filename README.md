@@ -1,1 +1,2 @@
-# rsschool-cv
+# CV. HTML, CSS & Git Basics
+
