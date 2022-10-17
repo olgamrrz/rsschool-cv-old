@@ -9,7 +9,8 @@
 
 ### Summary
 I'm a self-taught junior frontend developer, currently based in Kazakhstan. My goal is to become a proficient frontend developer. I have worked on several web development projects.
-*********
+
+
 ### Skills
 - HTML5, CSS3
 - JavaScript
